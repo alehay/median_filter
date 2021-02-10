@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+*.o
+
+median_filter
+.qmake.stash
