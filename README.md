@@ -20,7 +20,7 @@
 
 ![](https://raw.githubusercontent.com/alehay/median_filter/main/build-Release/out/5_size.png)
 
-работа фильра с ядром размера:
+работа фильра с ядром размера 13:
 
 ![](https://raw.githubusercontent.com/alehay/median_filter/main/build-Release/out/13.png)
 
