@@ -14,7 +14,6 @@
 
 int main(int , char *[])
 {
-
     // дано по условию задачи:
     int w = 640;
     int h = 480;
@@ -23,10 +22,10 @@ int main(int , char *[])
     QString outputDir = "out/";
 
 
-    QString path = QDir::currentPath()+ "/" + inputDir;
+    QString path = QDir::currentPath() + "/" + inputDir;
     QDir dir(path);
     // итерация по файлам
-    QDirIterator iterator(dir.absolutePath(),{"*.raw"}, QDir::Files);
+    QDirIterator iterator(dir.absolutePath(), {"*.raw"}, QDir::Files);
 
     while (iterator.hasNext()) {
         QFile f(iterator.next());

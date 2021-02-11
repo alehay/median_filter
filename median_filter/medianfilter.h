@@ -22,7 +22,7 @@ private:
     bool isBorder (int cell);
 public:
     MedianFilter(QFile & in_file , int width, int height) : f_width(width), f_height(height),
-      in_img(width*height), out_img(width*height) {
+      in_img(width * height), out_img(width * height) {
         char ch;
         size_t i = 0;
         while(!in_file.atEnd()) {
@@ -35,9 +35,7 @@ public:
         }
         in_file.close();
      };
-
     void run(int kernelSize);
-
     bool savePng (const QString & path);
 
 
